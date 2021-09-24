@@ -1,0 +1,39 @@
+===========================================================================================================================
+web :   
+    + création d'un serveur HTTP => établir un serveur HTTP
+    + lancement du serveur http
+    + création une page web
+    + httpServer.py + index.html ==> donne un affichage STATIQUE de la page web -> c'est dans le scripts html qu'on doit ajouter nos scrips
+    + Création d'un serveur HTTP avec un géstionaire de scrypt CGI
+        httpServerAvecCGI.py + index.py ==> donne un affichage DYNAMIQUE de la page web
+    + https://info.blaisepascal.fr/nsi-serveur-http-python-cgi
+
+===========================================================================================================================
+--------------------------------------------------------------------------------------------------------------------------
+httpServer.py
+    + mettre en place un serveur HTTP (c'est comme le serveur appach)
+    + Démaré le serveur http python avec la commande python .\httpServer.py dans une fenêtre cmd ou powershell
+
+--------------------------------------------------------------------------------------------------------------------------
+index.html
+    + Objectif affichage statisue d'une page web HTML
+    + pour créer la structure d'une page html il faut faire : ! et tabulation 
+    + pour lancer la page web en HTML aller dans une fenêtre "Internet Explorer" et lancer dans la barre de recherche "http://localhost/"
+
+    /!\ lorsqu'on lance le serveur simple "python .\httpServer.py" on va afficher d'une manière statique la page web HTML index.html
+
+--------------------------------------------------------------------------------------------------------------------------
+index.py
+    + Objectif : affichage dynamique de la page web httm crée via un script python
+        - c'est à dire on va lancer le serveur cgi avec la commande "python httpServerAvecCGI.py" 
+        - ensuite on va créer la page web via le script index.py
+    + Dans une fenêtre powershell il faut aller dans le répertoire ou il y a le script python qui lance le serveur 
+    C:\Users\a800542\OneDrive - Atos\Desktop\ATOS\pythonOci\scriptsPython\web>
+    + ensuite lancer la commande "python .\httpServerAvecCGI.py"
+    + dans internet eplorer il faut lancer ""
+
+--------------------------------------------------------------------------------------------------------------------------
+index.py / result.py
+    + Objectif : recuperer ensuite transmettre des données/information via des formulaire 
+    + c'est le fichier result.py qui va récuperer des données ou resultats
+    + 
