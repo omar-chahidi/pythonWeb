@@ -36,4 +36,12 @@ index.py
 index.py / result.py
     + Objectif : recuperer ensuite transmettre des données/information via des formulaire 
     + c'est le fichier result.py qui va récuperer des données ou resultats
-    + 
+--------------------------------------------------------------------------------------------------------------------------
+cookies.py 
+    Objectif : comment géréer des cookies (écrire et lire)
+    + cookies c'est fichier texte que le navigateur va enregistrer pour stocker des informations 
+    + Création de COOKIE
+    + Récupération de COOKIE
+    + gérer l'encodage pour afficher des caractères spéciaux
+    + python .\httpServerAvecCGI.py
+    + http://localhost/cookies.py
